@@ -1,7 +1,7 @@
 import { MenuIcon, XIcon } from "lucide-react";
 // import { useState } from "react";
 
-export default function Navbar({ setDisplayCart }) {
+export default function Navbar({ setDisplayOrder }) {
     // const [menuIsOpen, setMenuIsOpen] = useState(false)
     return <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-blue-950 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@ export default function Navbar({ setDisplayCart }) {
                 </a>
 
                 <div>
-                    <a onClick={() => setDisplayCart(true)} className="text-white font-medium hover:cursor-pointer hover:text-blue-500">Giỏ Hàng</a>
+                    <a onClick={() => setDisplayOrder(true)} className="text-white font-medium hover:cursor-pointer hover:text-blue-500">Đơn Hàng</a>
                 </div>
                 {/* <div className="hidden md:flex items-center space-w-6 lg:space-x-8">
                     
