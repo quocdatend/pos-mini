@@ -1,6 +1,8 @@
-@be_pos_mini_HostAddress = http://localhost:5241
+@rootURL = http://localhost:5241
 
-GET {{be_pos_mini_HostAddress}}/weatherforecast/
+GET {{rootURL}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{rootURL}}/api/products
+Accept: application/json
