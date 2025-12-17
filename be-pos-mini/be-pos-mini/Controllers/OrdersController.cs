@@ -34,11 +34,8 @@ namespace be_pos_mini.Controllers
             order.CreatedAt = DateTime.Now;
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
-
-            // Gửi đơn mới realtime
             await _hubContext.Clients.All
                 .SendAsync("ReceiveNewOrder", order);
-
             return Ok(order);
         }
     }

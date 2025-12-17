@@ -32,6 +32,27 @@ namespace be_pos_mini.Data
                     Name = "Bánh Ngọt",
                     Price = 12000,
                     Image = "/banh-ngot.png"
+                },
+                new Product
+                {
+                    Id = 4,
+                    Name = "Bánh dâu",
+                    Price = 15000,
+                    Image = "/banh-dau.png"
+                },
+                new Product
+                {
+                    Id = 5,
+                    Name = "Nước Coca-cola",
+                    Price = 5000,
+                    Image = "/cocacola.png"
+                },
+                new Product
+                {
+                    Id = 6,
+                    Name = "Nước Pesi",
+                    Price = 5000,
+                    Image = "/pesi.png"
                 }
             );
         }
