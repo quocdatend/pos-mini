@@ -6,3 +6,7 @@ Accept: application/json
 ###
 GET {{rootURL}}/api/products
 Accept: application/json
+###
+GET {{rootURL}}/api/orders
+Accept: application/json
+###

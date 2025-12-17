@@ -1,16 +1,24 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { ShoppingCart, Plus, Minus } from "lucide-react"
+import { getProducts } from "../services/ProductService"
 
-const products = [
-  { id: 1, name: "Cà phê sữa", price: 25000, image: "https://via.placeholder.com/400x300" },
-  { id: 2, name: "Trà đào", price: 30000, image: "https://via.placeholder.com/400x300" },
-  { id: 3, name: "Bánh ngọt", price: 20000, image: "https://via.placeholder.com/400x300" },
-  { id: 4, name: "Bánh ngọt mới", price: 21000, image: "https://via.placeholder.com/400x300" },
-  { id: 5, name: "Trà sữa", price: 28000, image: "https://via.placeholder.com/400x300" }
-]
+// const products = [
+//   { id: 1, name: "Cà phê sữa", price: 25000, image: "https://via.placeholder.com/400x300" },
+//   { id: 2, name: "Trà đào", price: 30000, image: "https://via.placeholder.com/400x300" },
+//   { id: 3, name: "Bánh ngọt", price: 20000, image: "https://via.placeholder.com/400x300" },
+//   { id: 4, name: "Bánh ngọt mới", price: 21000, image: "https://via.placeholder.com/400x300" },
+//   { id: 5, name: "Trà sữa", price: 28000, image: "https://via.placeholder.com/400x300" }
+// ]
 
 export default function Content() {
   const [cart, setCart] = useState([])
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    getProducts()
+      .then((res) => setProducts(res.data))
+      .catch((err) => console.error(err))
+  }, [])
 
   const addToCart = (product) => {
     setCart((prev) => {
@@ -41,6 +49,46 @@ export default function Content() {
   }
 
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0)
+
+  const generateOrderId = () => {
+    const now = new Date()
+    const yyyy = now.getFullYear()
+    const MM = String(now.getMonth() + 1).padStart(2, "0")
+    const dd = String(now.getDate()).padStart(2, "0")
+    const HH = String(now.getHours()).padStart(2, "0")
+    const mm = String(now.getMinutes()).padStart(2, "0")
+    const ss = String(now.getSeconds()).padStart(2, "0")
+
+    return `DH${yyyy}${MM}${dd}${HH}${mm}${ss}`
+  }
+
+  const handleCheckout = async () => {
+    if (cart.length === 0) return alert("Giỏ hàng trống")
+
+    const order = {
+      orderId: generateOrderId(), // backend có thể override
+      totalPrice: total,
+      createdAt: new Date().toISOString()
+    }
+
+    try {
+      const res = await fetch("https://localhost:7019/api/orders", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(order)
+      })
+
+      if (!res.ok) throw new Error("Checkout failed")
+
+      setCart([]) // clear giỏ
+      alert("Thanh toán thành công")
+    } catch (err) {
+      console.error(err)
+      alert("Lỗi thanh toán")
+    }
+  }
 
   return (
     <div className="flex flex-col md:flex-row h-[calc(100vh-4rem)] bg-slate-100">
@@ -100,7 +148,7 @@ export default function Content() {
             </span>
           </div>
 
-          <button className="w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 text-base">
+          <button onClick={handleCheckout} className="w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 text-base">
             Thanh toán
           </button>
         </div>

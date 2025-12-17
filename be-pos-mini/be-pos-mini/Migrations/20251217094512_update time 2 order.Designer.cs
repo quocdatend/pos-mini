@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using be_pos_mini.Data;
 
@@ -11,9 +12,11 @@ using be_pos_mini.Data;
 namespace be_pos_mini.Migrations
 {
     [DbContext(typeof(PosMiniContext))]
-    partial class PosMiniContextModelSnapshot : ModelSnapshot
+    [Migration("20251217094512_update time 2 order")]
+    partial class updatetime2order
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

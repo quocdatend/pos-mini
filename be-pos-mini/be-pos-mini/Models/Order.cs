@@ -3,9 +3,8 @@
     public class Order
     {
         public int Id { get; set; }
-        public int OrderId { get; set; }
-        public string Name { get; set; }
+        public string OrderId { get; set; }
         public int TotalPrice { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }
