@@ -3,16 +3,16 @@ import * as signalR from "@microsoft/signalr"
 
 function Order() {
   const [orders, setOrders] = useState([])
-
+ const API_URL = "http://localhost:8081";
   useEffect(() => {
     // Lấy data ban đầu
-    fetch("https://localhost:7019/api/orders")
+    fetch(`${API_URL}/api/orders`)
       .then(res => res.json())
       .then(data => setOrders(data))
 
     // SignalR
     const connection = new signalR.HubConnectionBuilder()
-      .withUrl("https://localhost:7019/orderHub")
+      .withUrl(`${API_URL}/orderHub`)
       .withAutomaticReconnect()
       .build()
 

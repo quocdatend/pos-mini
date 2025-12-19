@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("be-pos-mini")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16bd98a589a7ea84623051eef9719dd4c8f16a5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b63e7425a07adb45234b971fc9300c02c565deb")]
 [assembly: System.Reflection.AssemblyProductAttribute("be-pos-mini")]
 [assembly: System.Reflection.AssemblyTitleAttribute("be-pos-mini")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

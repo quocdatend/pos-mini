@@ -14,7 +14,7 @@ import { toast } from "react-toastify";
 export default function Content() {
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState([]);
-
+  const API_URL = "http://localhost:8081";
   useEffect(() => {
     getProducts()
       .then((res) => setProducts(res.data))
@@ -71,7 +71,7 @@ export default function Content() {
     };
 
     try {
-      const res = await fetch("https://localhost:7019/api/orders", {
+      const res = await fetch(`${API_URL}/api/orders`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

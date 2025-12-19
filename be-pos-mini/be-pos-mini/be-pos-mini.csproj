@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>be_pos_mini</RootNamespace>
+    <AssemblyName>be-pos-mini</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

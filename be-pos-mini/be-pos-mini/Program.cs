@@ -28,7 +28,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PosMiniContext> (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<PosMiniContext>();
+    db.Database.Migrate();
+}
 app.UseCors("CorsPolicy");
 
 // Configure the HTTP request pipeline.
@@ -38,7 +42,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

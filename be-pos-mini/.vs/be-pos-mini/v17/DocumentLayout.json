@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\hubs\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\hubs\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\data\\posminicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\data\\posminicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\be-pos-mini.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\be-pos-mini.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\migrations\\20251217105258_more data for product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\migrations\\20251217105258_more data for product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|c:\\users\\acer\\desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E2DE5E9-B420-4251-A8FC-1DCE638155B3}|be-pos-mini\\be-pos-mini.csproj|solutionrelative:be-pos-mini\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,118 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Models\\Product.cs",
-              "RelativeToolTip": "be-pos-mini\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T10:54:46.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "be-pos-mini\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:18:42.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PosMiniContext.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Data\\PosMiniContext.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Data\\PosMiniContext.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Data\\PosMiniContext.cs",
-              "RelativeToolTip": "be-pos-mini\\Data\\PosMiniContext.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T10:50:17.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderHub.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Hubs\\OrderHub.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Hubs\\OrderHub.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Hubs\\OrderHub.cs",
-              "RelativeToolTip": "be-pos-mini\\Hubs\\OrderHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T09:07:38.561Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Program.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Program.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Program.cs",
-              "RelativeToolTip": "be-pos-mini\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:57:03.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20251217105258_more data for product.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Migrations\\20251217105258_more data for product.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Migrations\\20251217105258_more data for product.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Migrations\\20251217105258_more data for product.cs",
-              "RelativeToolTip": "be-pos-mini\\Migrations\\20251217105258_more data for product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T10:52:59.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "be-pos-mini.http",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\be-pos-mini.http",
-              "RelativeDocumentMoniker": "be-pos-mini\\be-pos-mini.http",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\be-pos-mini.http",
-              "RelativeToolTip": "be-pos-mini\\be-pos-mini.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-17T10:14:29.173Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 275,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "be-pos-mini\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:44:41.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "be-pos-mini\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Models\\Order.cs",
-              "RelativeToolTip": "be-pos-mini\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:36:54.664Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Dockerfile",
+              "RelativeDocumentMoniker": "be-pos-mini\\Dockerfile",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\pos-mini\\be-pos-mini\\be-pos-mini\\Dockerfile",
+              "RelativeToolTip": "be-pos-mini\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-18T07:49:10.808Z",
               "EditorCaption": ""
             }
           ]
