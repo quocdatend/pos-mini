@@ -48,13 +48,13 @@ cd fe-pos-mini
 Build image:
 
 ```bash
-docker build -t fe-pos-mini .
+docker build -t fe-pos-mini:dev .
 ```
 
 Chạy container:
 
 ```bash
-docker run -p 5173:5173 fe-pos-mini
+docker run -p 5173:5173 fe-pos-mini:dev
 ```
 
 Sau khi chạy:
@@ -65,22 +65,7 @@ Sau khi chạy:
 
 ## 4. Chạy Backend (be-pos-mini)
 
-### 4.1 Cấu hình
-
-Backend sử dụng:
-
-* ASP.NET Core Web API
-* SQL Server (chạy bằng Docker)
-
-Các biến môi trường quan trọng (đã khai báo trong `docker-compose.yml`):
-
-* `SA_PASSWORD`
-* `ACCEPT_EULA`
-* `ConnectionStrings__DefaultConnection`
-
----
-
-### 4.2 Chạy Backend bằng Docker Compose
+### 4.1 Chạy Backend bằng Docker Compose
 
 Di chuyển vào thư mục backend:
 
@@ -103,7 +88,7 @@ EF Core sẽ tự động chạy `Database.Migrate()` khi app start.
 
 ---
 
-### 4.3 Dừng Backend (nếu muốn tắt thay vì thủ công trên docker)
+### 4.2 Dừng Backend (nếu muốn tắt thay vì thủ công trên docker)
 
 ```bash
 docker compose down
